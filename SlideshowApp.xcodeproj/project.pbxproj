@@ -13,6 +13,12 @@
 		6824F2A9290D233C00E27F0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6824F2A7290D233C00E27F0D /* Main.storyboard */; };
 		6824F2AB290D233E00E27F0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6824F2AA290D233E00E27F0D /* Assets.xcassets */; };
 		6824F2AE290D233E00E27F0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6824F2AC290D233E00E27F0D /* LaunchScreen.storyboard */; };
+		6824F2C0290D73BB00E27F0D /* ScalingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6824F2BF290D73BB00E27F0D /* ScalingViewController.swift */; };
+		6824F2F0290FE6C300E27F0D /* hana1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6824F2EB290FE6C200E27F0D /* hana1.png */; };
+		6824F2F1290FE6C300E27F0D /* hana4.png in Resources */ = {isa = PBXBuildFile; fileRef = 6824F2EC290FE6C200E27F0D /* hana4.png */; };
+		6824F2F2290FE6C300E27F0D /* hana5.png in Resources */ = {isa = PBXBuildFile; fileRef = 6824F2ED290FE6C200E27F0D /* hana5.png */; };
+		6824F2F3290FE6C300E27F0D /* hana3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6824F2EE290FE6C300E27F0D /* hana3.png */; };
+		6824F2F4290FE6C300E27F0D /* hana2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6824F2EF290FE6C300E27F0D /* hana2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		6824F2AA290D233E00E27F0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6824F2AD290D233E00E27F0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6824F2AF290D233E00E27F0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6824F2BF290D73BB00E27F0D /* ScalingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScalingViewController.swift; sourceTree = "<group>"; };
+		6824F2EB290FE6C200E27F0D /* hana1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hana1.png; sourceTree = "<group>"; };
+		6824F2EC290FE6C200E27F0D /* hana4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hana4.png; sourceTree = "<group>"; };
+		6824F2ED290FE6C200E27F0D /* hana5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hana5.png; sourceTree = "<group>"; };
+		6824F2EE290FE6C300E27F0D /* hana3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hana3.png; sourceTree = "<group>"; };
+		6824F2EF290FE6C300E27F0D /* hana2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hana2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +53,11 @@
 			isa = PBXGroup;
 			children = (
 				6824F2A0290D233C00E27F0D /* SlideshowApp */,
+				6824F2EB290FE6C200E27F0D /* hana1.png */,
+				6824F2EF290FE6C300E27F0D /* hana2.png */,
+				6824F2EE290FE6C300E27F0D /* hana3.png */,
+				6824F2EC290FE6C200E27F0D /* hana4.png */,
+				6824F2ED290FE6C200E27F0D /* hana5.png */,
 				6824F29F290D233C00E27F0D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,10 +76,11 @@
 				6824F2A1290D233C00E27F0D /* AppDelegate.swift */,
 				6824F2A3290D233C00E27F0D /* SceneDelegate.swift */,
 				6824F2A5290D233C00E27F0D /* ViewController.swift */,
+				6824F2BF290D73BB00E27F0D /* ScalingViewController.swift */,
 				6824F2A7290D233C00E27F0D /* Main.storyboard */,
-				6824F2AA290D233E00E27F0D /* Assets.xcassets */,
 				6824F2AC290D233E00E27F0D /* LaunchScreen.storyboard */,
 				6824F2AF290D233E00E27F0D /* Info.plist */,
+				6824F2AA290D233E00E27F0D /* Assets.xcassets */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -125,9 +143,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6824F2F2290FE6C300E27F0D /* hana5.png in Resources */,
 				6824F2AE290D233E00E27F0D /* LaunchScreen.storyboard in Resources */,
+				6824F2F3290FE6C300E27F0D /* hana3.png in Resources */,
 				6824F2AB290D233E00E27F0D /* Assets.xcassets in Resources */,
+				6824F2F1290FE6C300E27F0D /* hana4.png in Resources */,
+				6824F2F0290FE6C300E27F0D /* hana1.png in Resources */,
 				6824F2A9290D233C00E27F0D /* Main.storyboard in Resources */,
+				6824F2F4290FE6C300E27F0D /* hana2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +163,7 @@
 			files = (
 				6824F2A6290D233C00E27F0D /* ViewController.swift in Sources */,
 				6824F2A2290D233C00E27F0D /* AppDelegate.swift in Sources */,
+				6824F2C0290D73BB00E27F0D /* ScalingViewController.swift in Sources */,
 				6824F2A4290D233C00E27F0D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
