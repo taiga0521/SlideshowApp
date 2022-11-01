@@ -36,6 +36,7 @@ class ViewController: UIViewController {
         }
         imageView.image = imageArray[nowIndex]
     }
+    //
     
     //　戻る
     @IBOutlet weak var backIboButton: UIButton!
