@@ -13,24 +13,25 @@ class ViewController: UIViewController {
     //　画像
     @IBOutlet weak var imageView: UIImageView!
     var image: UIImage?
-    var nowIndex:Int = 0
+    var nowIndex = 0
     
     var timer: Timer!
     //　進む
     @IBOutlet weak var imageButton: UIButton!
     //　進む
     @IBAction func nextButton(_ sender: Any) {
-        if nowIndex == 0{
-            nowIndex = 1
-        } else if nowIndex == 1 {
-            nowIndex = 2
-        } else if nowIndex == 2 {
-            nowIndex = 3
-        } else if nowIndex == 3 {
-            nowIndex = 4
-        } else if nowIndex == 4 {
-            nowIndex = 0
-        }
+//        if nowIndex == 0{
+//            nowIndex = 1
+//        } else if nowIndex == 1 {
+//            nowIndex = 2
+//        } else if nowIndex == 2 {
+//            nowIndex = 3
+//        } else if nowIndex == 3 {
+//            nowIndex = 4
+//        } else if nowIndex == 4 {
+//            nowIndex = 0
+//        }
+        nowIndex += 1
         if (nowIndex == imageArray.count){
             nowIndex = 0
         }
@@ -70,9 +71,11 @@ class ViewController: UIViewController {
     @IBAction func onTapImage(_ sender: Any) {
         if self.timer != nil {
             print("タイマー停止")
+            //　時間が止まる
             startButton.setTitle("再生", for: .normal)
             imageButton.isEnabled = true
             backIboButton.isEnabled = true
+            
             timer.invalidate()
             self.timer = nil
         }
